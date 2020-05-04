@@ -1,0 +1,88 @@
+div {
+        color: black;
+        font: Arial;
+        font-size: 36px;
+      }
+
+.par {
+        color: red;
+        font-family:Courier;
+        font-size: 15px;
+        text-align: center;
+      }
+p {
+              text-align: center;
+              color: black;
+              font-family:Courier;
+              
+            }
+#id {
+        text-align: center;
+        font-family: Courier;
+        font-size: 25px;
+        color: #55552b;
+        padding-top: 5%;
+
+
+
+      }
+.cls {
+        font-size:25px;
+        border: 2px line black;
+     }
+.fot {
+          font-size:25px;
+          text-align: left;
+       }
+
+.grid {
+              background-color: gray;
+              display: flex;
+              flex-wrap: wrap;
+              grid-column-gap: 10px;
+              grid-row-gap: 10px;
+              grid-template-columns: 40% 40%;
+              padding-bottom: 100px;
+              padding-left: 100px;
+              padding-top: 100px;
+
+           }
+
+.grid-item {
+               background-color: white;
+               font-size: 20px;
+               padding: 20px;
+               align-content: center;
+               text-align: center;
+           }
+
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    align-items: center;
+    width: 100%;
+    padding-top: 10%;
+
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    background-color: #d8d9ce;
+}
+
+th {
+    background-color: lightgray;
+    align-content:center;
+}
+.row > div {
+    padding: 20px;
+    background-color:#eaebe6;
+    border: 2px solid black;
+}
+a {
+  style=background-color: #eaebe6;
+  font-size: 20px;
+}

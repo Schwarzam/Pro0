@@ -1,0 +1,29 @@
+%inh {
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.main {
+    @extend %inh;
+    font-size: 36;
+}
+
+.sub {
+    @extend %inh;
+    font-size: 22px;
+}
+
+ol {
+    font-size: 18px;
+
+    li {
+        color: black;
+    }
+
+    ul {
+        color: red;
+    }
+}
