@@ -1,0 +1,46 @@
+.sub, .main {
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.main {
+  font-size: 36;
+  font-style: oblique;
+}
+
+.sub {
+  font-size: 22px;
+  text-align: center;
+}
+
+ol {
+  font-size: 18px;
+}
+ol li {
+  color: black;
+}
+ol ul {
+  color: red;
+}
+
+div p {
+  font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > div{
+    background-color: #cca266;
+    font-size: 20px;
+    margin: 20px;
+    padding: 3%;
+    width: 300px;
+    text-align: justify;
+}
+/*# sourceMappingURL=Styl.css.map */

@@ -9,6 +9,7 @@
 .main {
     @extend %inh;
     font-size: 36;
+    font-style: oblique;
 }
 
 .sub {
@@ -25,5 +26,11 @@ ol {
 
     ul {
         color: red;
+    }
+}
+
+div {
+    p {
+      font-size: 25px;
     }
 }
